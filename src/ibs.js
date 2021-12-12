@@ -46,11 +46,11 @@ async function makeFile() {
 async function process(path) {
   try {
     const response = await instance.get(
-      "https://10.1.33.80/report-khorasan-razavi/daily" + path,
+      "https://url/daily" + path,
       {
         auth: {
-          username: "khorasan-razavi",
-          password: "iMaif3uh4PaeBohg",
+          username: "user",
+          password: "pass",
         },
       }
     );
