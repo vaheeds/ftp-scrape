@@ -18,8 +18,8 @@ async function makeFile() {
       "https://10.1.33.80/report-khorasan-razavi",
       {
         auth: {
-          username: "khorasan-razavi",
-          password: "iMaif3uh4PaeBohg",
+          username: "username",
+          password: "pass",
         },
       }
     );
