@@ -15,7 +15,7 @@ const instance = axios.create({
 async function makeFile() {
   try {
     const response = await instance.get(
-      "https://10.1.33.80/report-khorasan-razavi",
+      "https://url/to/data",
       {
         auth: {
           username: "username",
